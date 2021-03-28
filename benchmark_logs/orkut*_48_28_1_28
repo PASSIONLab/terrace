@@ -1,0 +1,216 @@
+Num workers: 1
+Inserting edges
+Construction finished. Nodes: 3072627 Edges: 234370166 Size: 2.46072 GB
+Inserting edges: Total Time Elapsed: 928.758728seconds
+Throughput: 252348
+Running BFS from source = 28
+BFS finished. parent of 28: 28
+	test=BFS	time=0.48853	iteration=0
+Running BFS from source = 28
+BFS finished. parent of 28: 28
+	test=BFS	time=0.438568	iteration=1
+Running BFS from source = 28
+BFS finished. parent of 28: 28
+	test=BFS	time=0.501488	iteration=2
+Running BFS from source = 28
+BFS finished. parent of 28: 28
+	test=BFS	time=0.426324	iteration=3
+Running BFS from source = 28
+BFS finished. parent of 28: 28
+	test=BFS	time=0.417486	iteration=4
+Running BFS from source = 28
+BFS finished. parent of 28: 28
+	test=BFS	time=0.47984	iteration=5
+Running BFS from source = 28
+BFS finished. parent of 28: 28
+	test=BFS	time=0.41832	iteration=6
+Running BFS from source = 28
+BFS finished. parent of 28: 28
+	test=BFS	time=0.415636	iteration=7
+Running BFS from source = 28
+BFS finished. parent of 28: 28
+	test=BFS	time=0.483609	iteration=8
+Running BFS from source = 28
+BFS finished. parent of 28: 28
+	test=BFS	time=0.42306	iteration=9
+AVG	test=BFS	time=0.449286	graph=/graphs/com-orkut.ungraph.adj.shuf
+Running PR
+max iters 5
+PR finished
+	test=PR	time=11.592	iteration=0
+Running PR
+max iters 5
+PR finished
+	test=PR	time=11.813	iteration=1
+Running PR
+max iters 5
+PR finished
+	test=PR	time=10.0336	iteration=2
+Running PR
+max iters 5
+PR finished
+	test=PR	time=10.814	iteration=3
+Running PR
+max iters 5
+PR finished
+	test=PR	time=10.3316	iteration=4
+Running PR
+max iters 5
+PR finished
+	test=PR	time=10.3515	iteration=5
+Running PR
+max iters 5
+PR finished
+	test=PR	time=10.3871	iteration=6
+Running PR
+max iters 5
+PR finished
+	test=PR	time=9.41494	iteration=7
+Running PR
+max iters 5
+PR finished
+	test=PR	time=9.23748	iteration=8
+Running PR
+max iters 5
+PR finished
+	test=PR	time=7.83109	iteration=9
+AVG	test=PR	time=10.1806	graph=/graphs/com-orkut.ungraph.adj.shuf
+Running CC
+CC finished
+	test=CC	time=3.23815	iteration=0
+Running CC
+CC finished
+	test=CC	time=3.25346	iteration=1
+Running CC
+CC finished
+	test=CC	time=3.25217	iteration=2
+Running CC
+CC finished
+	test=CC	time=3.70347	iteration=3
+Running CC
+CC finished
+	test=CC	time=3.65878	iteration=4
+Running CC
+CC finished
+	test=CC	time=3.20749	iteration=5
+Running CC
+CC finished
+	test=CC	time=3.20442	iteration=6
+Running CC
+CC finished
+	test=CC	time=3.30533	iteration=7
+Running CC
+CC finished
+	test=CC	time=3.31526	iteration=8
+Running CC
+CC finished
+	test=CC	time=3.33545	iteration=9
+AVG	test=CC	time=3.3474	graph=/graphs/com-orkut.ungraph.adj.shuf
+Running BC from source = 28
+BC finished
+	test=BC	time=2.64542	iteration=0
+Running BC from source = 28
+BC finished
+	test=BC	time=2.82976	iteration=1
+Running BC from source = 28
+BC finished
+	test=BC	time=2.93062	iteration=2
+Running BC from source = 28
+BC finished
+	test=BC	time=2.93918	iteration=3
+Running BC from source = 28
+BC finished
+	test=BC	time=2.95301	iteration=4
+Running BC from source = 28
+BC finished
+	test=BC	time=2.94392	iteration=5
+Running BC from source = 28
+BC finished
+	test=BC	time=2.92707	iteration=6
+Running BC from source = 28
+BC finished
+	test=BC	time=2.75906	iteration=7
+Running BC from source = 28
+BC finished
+	test=BC	time=2.78264	iteration=8
+Running BC from source = 28
+BC finished
+	test=BC	time=2.9698	iteration=9
+AVG	test=BC	time=2.86805	graph=/graphs/com-orkut.ungraph.adj.shuf
+Running TC
+TC finished, counted 627584181
+	test=TC	time=190.27	iteration=0
+Running TC
+TC finished, counted 627584181
+	test=TC	time=188.239	iteration=1
+Running TC
+TC finished, counted 627584181
+	test=TC	time=186.4	iteration=2
+Running TC
+TC finished, counted 627584181
+	test=TC	time=192.929	iteration=3
+Running TC
+TC finished, counted 627584181
+	test=TC	time=193.021	iteration=4
+Running TC
+TC finished, counted 627584181
+	test=TC	time=193.946	iteration=5
+Running TC
+TC finished, counted 627584181
+	test=TC	time=194.344	iteration=6
+Running TC
+TC finished, counted 627584181
+	test=TC	time=194.19	iteration=7
+Running TC
+TC finished, counted 627584181
+	test=TC	time=189.445	iteration=8
+Running TC
+TC finished, counted 627584181
+	test=TC	time=195.143	iteration=9
+AVG	test=TC	time=191.793	graph=/graphs/com-orkut.ungraph.adj.shuf
+Num workers: 1
+Inserting edges
+Construction finished. Nodes: 3072627 Edges: 234370166 Size: 2.46072 GB
+Inserting edges: Total Time Elapsed: 894.951599seconds
+Throughput: 261880
+Running PR
+max iters 10
+PR finished
+	test=PR	time=23.7295	iteration=0
+Running PR
+max iters 10
+PR finished
+	test=PR	time=23.7173	iteration=1
+Running PR
+max iters 10
+PR finished
+	test=PR	time=23.7078	iteration=2
+Running PR
+max iters 10
+PR finished
+	test=PR	time=23.7068	iteration=3
+Running PR
+max iters 10
+PR finished
+	test=PR	time=23.7087	iteration=4
+Running PR
+max iters 10
+PR finished
+	test=PR	time=23.6396	iteration=5
+Running PR
+max iters 10
+PR finished
+	test=PR	time=23.5925	iteration=6
+Running PR
+max iters 10
+PR finished
+	test=PR	time=23.5932	iteration=7
+Running PR
+max iters 10
+PR finished
+	test=PR	time=23.6129	iteration=8
+Running PR
+max iters 10
+PR finished
+	test=PR	time=23.5792	iteration=9
+AVG	test=PR	time=23.6587	graph=/graphs/com-orkut.ungraph.adj.shuf

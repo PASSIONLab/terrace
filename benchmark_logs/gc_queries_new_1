@@ -1,0 +1,14 @@
+structure,rounds,algorithm,src,graph,threads,time
+structure,rounds,algorithm,src,graph,threads,time
+structure,rounds,algorithm,src,graph,threads,time
+gc,10,BFS,19372,rmat*,1,0.688336
+gc,10,PR,19372,rmat*,1,31.0108
+gc,10,CC,19372,rmat*,1,16.3444
+gc,10,BC,19372,rmat*,1,7.74768
+gc,10,TC,19372,rmat*,1,54.3036
+gc,10,PR,19372,rmat*,1,63.182
+gc,10,BFS,35,protein,1,0.576369
+gc,10,PR,35,protein,1,73.2901
+gc,10,CC,35,protein,1,42.1695
+gc,10,BC,35,protein,1,1.58994
+gc,10,PR,35,protein,1,137.285

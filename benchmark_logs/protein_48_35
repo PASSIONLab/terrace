@@ -1,0 +1,185 @@
+Num workers: 48
+Inserting edges
+Construction finished. Nodes: 8745543 Edges: 1309240502 Size: 19.5118 GB
+Inserting edges: Total Time Elapsed: 1131.558350seconds
+Throughput: 1.15702e+06
+Running BFS from source = 35
+BFS finished. parent of 35: 35
+	test=BFS	time=0.039765	iteration=0
+Running BFS from source = 35
+BFS finished. parent of 35: 35
+	test=BFS	time=0.025261	iteration=1
+Running BFS from source = 35
+BFS finished. parent of 35: 35
+	test=BFS	time=0.025284	iteration=2
+Running BFS from source = 35
+BFS finished. parent of 35: 35
+	test=BFS	time=0.025171	iteration=3
+Running BFS from source = 35
+BFS finished. parent of 35: 35
+	test=BFS	time=0.025173	iteration=4
+Running BFS from source = 35
+BFS finished. parent of 35: 35
+	test=BFS	time=0.025309	iteration=5
+Running BFS from source = 35
+BFS finished. parent of 35: 35
+	test=BFS	time=0.025289	iteration=6
+Running BFS from source = 35
+BFS finished. parent of 35: 35
+	test=BFS	time=0.025109	iteration=7
+Running BFS from source = 35
+BFS finished. parent of 35: 35
+	test=BFS	time=0.024981	iteration=8
+Running BFS from source = 35
+BFS finished. parent of 35: 35
+	test=BFS	time=0.025237	iteration=9
+AVG	test=BFS	time=0.0266579	graph=/graphs/protein.adj
+Running PR
+max iters 5
+PR finished
+	test=PR	time=2.48462	iteration=0
+Running PR
+max iters 5
+PR finished
+	test=PR	time=2.4769	iteration=1
+Running PR
+max iters 5
+PR finished
+	test=PR	time=2.47362	iteration=2
+Running PR
+max iters 5
+PR finished
+	test=PR	time=2.47439	iteration=3
+Running PR
+max iters 5
+PR finished
+	test=PR	time=2.47887	iteration=4
+Running PR
+max iters 5
+PR finished
+	test=PR	time=2.47012	iteration=5
+Running PR
+max iters 5
+PR finished
+	test=PR	time=2.50799	iteration=6
+Running PR
+max iters 5
+PR finished
+	test=PR	time=2.4742	iteration=7
+Running PR
+max iters 5
+PR finished
+	test=PR	time=2.4689	iteration=8
+Running PR
+max iters 5
+PR finished
+	test=PR	time=2.47957	iteration=9
+AVG	test=PR	time=2.47892	graph=/graphs/protein.adj
+Running CC
+CC finished
+	test=CC	time=1.27059	iteration=0
+Running CC
+CC finished
+	test=CC	time=1.26585	iteration=1
+Running CC
+CC finished
+	test=CC	time=1.26601	iteration=2
+Running CC
+CC finished
+	test=CC	time=1.27591	iteration=3
+Running CC
+CC finished
+	test=CC	time=1.26432	iteration=4
+Running CC
+CC finished
+	test=CC	time=1.27821	iteration=5
+Running CC
+CC finished
+	test=CC	time=1.28194	iteration=6
+Running CC
+CC finished
+	test=CC	time=1.27713	iteration=7
+Running CC
+CC finished
+	test=CC	time=1.27472	iteration=8
+Running CC
+CC finished
+	test=CC	time=1.27835	iteration=9
+AVG	test=CC	time=1.2733	graph=/graphs/protein.adj
+Running BC from source = 35
+BC finished
+	test=BC	time=0.096105	iteration=0
+Running BC from source = 35
+BC finished
+	test=BC	time=0.095647	iteration=1
+Running BC from source = 35
+BC finished
+	test=BC	time=0.095895	iteration=2
+Running BC from source = 35
+BC finished
+	test=BC	time=0.096592	iteration=3
+Running BC from source = 35
+BC finished
+	test=BC	time=0.096113	iteration=4
+Running BC from source = 35
+BC finished
+	test=BC	time=0.093889	iteration=5
+Running BC from source = 35
+BC finished
+	test=BC	time=0.093389	iteration=6
+Running BC from source = 35
+BC finished
+	test=BC	time=0.093819	iteration=7
+Running BC from source = 35
+BC finished
+	test=BC	time=0.094368	iteration=8
+Running BC from source = 35
+BC finished
+	test=BC	time=0.09378	iteration=9
+AVG	test=BC	time=0.0949597	graph=/graphs/protein.adj
+Num workers: 48
+Inserting edges
+Construction finished. Nodes: 8745543 Edges: 1309240502 Size: 19.5118 GB
+Inserting edges: Total Time Elapsed: 1136.672485seconds
+Throughput: 1.15182e+06
+Running PR
+max iters 10
+PR finished
+	test=PR	time=4.97892	iteration=0
+Running PR
+max iters 10
+PR finished
+	test=PR	time=4.94543	iteration=1
+Running PR
+max iters 10
+PR finished
+	test=PR	time=4.9864	iteration=2
+Running PR
+max iters 10
+PR finished
+	test=PR	time=4.97931	iteration=3
+Running PR
+max iters 10
+PR finished
+	test=PR	time=4.97795	iteration=4
+Running PR
+max iters 10
+PR finished
+	test=PR	time=4.97618	iteration=5
+Running PR
+max iters 10
+PR finished
+	test=PR	time=4.96135	iteration=6
+Running PR
+max iters 10
+PR finished
+	test=PR	time=4.97801	iteration=7
+Running PR
+max iters 10
+PR finished
+	test=PR	time=4.98068	iteration=8
+Running PR
+max iters 10
+PR finished
+	test=PR	time=4.96388	iteration=9
+AVG	test=PR	time=4.97281	graph=/graphs/protein.adj

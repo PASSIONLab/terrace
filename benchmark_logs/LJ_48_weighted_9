@@ -1,0 +1,27 @@
+Num workers: 48
+none
+Inserting edges
+Construction finished. Nodes: 4847571 Edges: 85702474 Size: 1.73695 GB
+Inserting edges: Total Time Elapsed: 12.264436seconds
+Throughput: 6.98789e+06
+BF start 9, num_vertices 4847571
+	test=SSSP_BF	time=0.409817	iteration=0
+BF start 9, num_vertices 4847571
+	test=SSSP_BF	time=0.393583	iteration=1
+BF start 9, num_vertices 4847571
+	test=SSSP_BF	time=0.396569	iteration=2
+BF start 9, num_vertices 4847571
+	test=SSSP_BF	time=0.390328	iteration=3
+BF start 9, num_vertices 4847571
+	test=SSSP_BF	time=0.39123	iteration=4
+BF start 9, num_vertices 4847571
+	test=SSSP_BF	time=0.414997	iteration=5
+BF start 9, num_vertices 4847571
+	test=SSSP_BF	time=0.378951	iteration=6
+BF start 9, num_vertices 4847571
+	test=SSSP_BF	time=0.390217	iteration=7
+BF start 9, num_vertices 4847571
+	test=SSSP_BF	time=0.361972	iteration=8
+BF start 9, num_vertices 4847571
+	test=SSSP_BF	time=0.373436	iteration=9
+AVG	test=SSSP_BF	time=0.39011	graph=/graphs/rand-out-soc-LiveJournal1.txt.shuf.weighted.adj
