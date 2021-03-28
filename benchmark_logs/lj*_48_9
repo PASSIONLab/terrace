@@ -1,0 +1,170 @@
+Num workers: 48
+Inserting edges
+Construction finished. Nodes: 4847571 Edges: 85702474 Size: 1.43555 GB
+Inserting edges: Total Time Elapsed: 10.033930seconds
+Throughput: 8.54127e+06
+Running BFS from source = 9
+BFS finished. parent of 9: 9
+	test=BFS	time=0.030377	iteration=0
+Running BFS from source = 9
+BFS finished. parent of 9: 9
+	test=BFS	time=0.019224	iteration=1
+Running BFS from source = 9
+BFS finished. parent of 9: 9
+	test=BFS	time=0.018505	iteration=2
+Running BFS from source = 9
+BFS finished. parent of 9: 9
+	test=BFS	time=0.01857	iteration=3
+Running BFS from source = 9
+BFS finished. parent of 9: 9
+	test=BFS	time=0.018576	iteration=4
+Running BFS from source = 9
+BFS finished. parent of 9: 9
+	test=BFS	time=0.018606	iteration=5
+Running BFS from source = 9
+BFS finished. parent of 9: 9
+	test=BFS	time=0.018469	iteration=6
+Running BFS from source = 9
+BFS finished. parent of 9: 9
+	test=BFS	time=0.018541	iteration=7
+Running BFS from source = 9
+BFS finished. parent of 9: 9
+	test=BFS	time=0.018545	iteration=8
+Running BFS from source = 9
+BFS finished. parent of 9: 9
+	test=BFS	time=0.018512	iteration=9
+AVG	test=BFS	time=0.0197925	graph=/graphs/soc-LiveJournal_shuf.adj
+Running PR
+max iters 5
+PR finished
+	test=PR	time=0.170958	iteration=0
+Running PR
+max iters 5
+PR finished
+	test=PR	time=0.152194	iteration=1
+Running PR
+max iters 5
+PR finished
+	test=PR	time=0.151742	iteration=2
+Running PR
+max iters 5
+PR finished
+	test=PR	time=0.150893	iteration=3
+Running PR
+max iters 5
+PR finished
+	test=PR	time=0.15066	iteration=4
+Running PR
+max iters 5
+PR finished
+	test=PR	time=0.151128	iteration=5
+Running PR
+max iters 5
+PR finished
+	test=PR	time=0.150822	iteration=6
+Running PR
+max iters 5
+PR finished
+	test=PR	time=0.150599	iteration=7
+Running PR
+max iters 5
+PR finished
+	test=PR	time=0.150797	iteration=8
+Running PR
+max iters 5
+PR finished
+	test=PR	time=0.150766	iteration=9
+AVG	test=PR	time=0.153056	graph=/graphs/soc-LiveJournal_shuf.adj
+Running CC
+CC finished
+	test=CC	time=0.089487	iteration=0
+Running CC
+CC finished
+	test=CC	time=0.085632	iteration=1
+Running CC
+CC finished
+	test=CC	time=0.070716	iteration=2
+Running CC
+CC finished
+	test=CC	time=0.091798	iteration=3
+Running CC
+CC finished
+	test=CC	time=0.091276	iteration=4
+Running CC
+CC finished
+	test=CC	time=0.089632	iteration=5
+Running CC
+CC finished
+	test=CC	time=0.086381	iteration=6
+Running CC
+CC finished
+	test=CC	time=0.082266	iteration=7
+Running CC
+CC finished
+	test=CC	time=0.085091	iteration=8
+Running CC
+CC finished
+	test=CC	time=0.085954	iteration=9
+AVG	test=CC	time=0.0858233	graph=/graphs/soc-LiveJournal_shuf.adj
+Running BC from source = 9
+BC finished
+	test=BC	time=0.093856	iteration=0
+Running BC from source = 9
+BC finished
+	test=BC	time=0.094732	iteration=1
+Running BC from source = 9
+BC finished
+	test=BC	time=0.087842	iteration=2
+Running BC from source = 9
+BC finished
+	test=BC	time=0.087359	iteration=3
+Running BC from source = 9
+BC finished
+	test=BC	time=0.084986	iteration=4
+Running BC from source = 9
+BC finished
+	test=BC	time=0.084646	iteration=5
+Running BC from source = 9
+BC finished
+	test=BC	time=0.085137	iteration=6
+Running BC from source = 9
+BC finished
+	test=BC	time=0.084797	iteration=7
+Running BC from source = 9
+BC finished
+	test=BC	time=0.084444	iteration=8
+Running BC from source = 9
+BC finished
+	test=BC	time=0.084778	iteration=9
+AVG	test=BC	time=0.0872577	graph=/graphs/soc-LiveJournal_shuf.adj
+Running TC
+TC finished, counted 285730264
+	test=TC	time=1.23866	iteration=0
+Running TC
+TC finished, counted 285730264
+	test=TC	time=1.48259	iteration=1
+Running TC
+TC finished, counted 285730264
+	test=TC	time=1.31363	iteration=2
+Running TC
+TC finished, counted 285730264
+	test=TC	time=1.38138	iteration=3
+Running TC
+TC finished, counted 285730264
+	test=TC	time=1.33175	iteration=4
+Running TC
+TC finished, counted 285730264
+	test=TC	time=1.46757	iteration=5
+Running TC
+TC finished, counted 285730264
+	test=TC	time=1.19518	iteration=6
+Running TC
+TC finished, counted 285730264
+	test=TC	time=1.18573	iteration=7
+Running TC
+TC finished, counted 285730264
+	test=TC	time=1.203	iteration=8
+Running TC
+TC finished, counted 285730264
+	test=TC	time=1.18276	iteration=9
+AVG	test=TC	time=1.29823	graph=/graphs/soc-LiveJournal_shuf.adj

@@ -1,0 +1,27 @@
+Num workers: 48
+none
+Inserting edges
+Construction finished. Nodes: 8388608 Edges: 493507336 Size: 5.24495 GB
+Inserting edges: Total Time Elapsed: 169.796341seconds
+Throughput: 2.90647e+06
+BF start 19372, num_vertices 8388608
+	test=SSSP_BF	time=1.70545	iteration=0
+BF start 19372, num_vertices 8388608
+	test=SSSP_BF	time=1.58905	iteration=1
+BF start 19372, num_vertices 8388608
+	test=SSSP_BF	time=1.61007	iteration=2
+BF start 19372, num_vertices 8388608
+	test=SSSP_BF	time=1.59334	iteration=3
+BF start 19372, num_vertices 8388608
+	test=SSSP_BF	time=1.48423	iteration=4
+BF start 19372, num_vertices 8388608
+	test=SSSP_BF	time=1.6439	iteration=5
+BF start 19372, num_vertices 8388608
+	test=SSSP_BF	time=1.68715	iteration=6
+BF start 19372, num_vertices 8388608
+	test=SSSP_BF	time=1.63105	iteration=7
+BF start 19372, num_vertices 8388608
+	test=SSSP_BF	time=1.58242	iteration=8
+BF start 19372, num_vertices 8388608
+	test=SSSP_BF	time=1.59853	iteration=9
+AVG	test=SSSP_BF	time=1.61252	graph=/graphs/rmat_ligra.el.shuf.weighted.adj

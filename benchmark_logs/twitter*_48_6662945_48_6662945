@@ -1,0 +1,46 @@
+Num workers: 48
+Inserting edges
+Construction finished. Nodes: 61578414 Edges: 2405026092 Size: 43.7823 GB
+Inserting edges: Total Time Elapsed: 1732.793823seconds
+Throughput: 1.38795e+06
+Running PR
+max iters 10
+PR finished
+	test=PR	time=18.377	iteration=0
+Running PR
+max iters 10
+PR finished
+	test=PR	time=18.2154	iteration=1
+Running PR
+max iters 10
+PR finished
+	test=PR	time=18.2555	iteration=2
+Running PR
+max iters 10
+PR finished
+	test=PR	time=18.2532	iteration=3
+Running PR
+max iters 10
+PR finished
+	test=PR	time=18.3107	iteration=4
+Running PR
+max iters 10
+PR finished
+	test=PR	time=18.206	iteration=5
+Running PR
+max iters 10
+PR finished
+	test=PR	time=18.3296	iteration=6
+Running PR
+max iters 10
+PR finished
+	test=PR	time=18.163	iteration=7
+Running PR
+max iters 10
+PR finished
+	test=PR	time=18.272	iteration=8
+Running PR
+max iters 10
+PR finished
+	test=PR	time=18.1877	iteration=9
+AVG	test=PR	time=18.257	graph=/graphs/twitter.adj.shuf

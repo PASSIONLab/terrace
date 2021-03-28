@@ -1,0 +1,46 @@
+Num workers: 48
+Inserting edges
+Construction finished. Nodes: 4847571 Edges: 85702474 Size: 1.43555 GB
+Inserting edges: Total Time Elapsed: 11.178065seconds
+Throughput: 7.66702e+06
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.309572	iteration=0
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.311632	iteration=1
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.312568	iteration=2
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.313019	iteration=3
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.315578	iteration=4
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.315074	iteration=5
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.314733	iteration=6
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.313368	iteration=7
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.313476	iteration=8
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.313322	iteration=9
+AVG	test=PR	time=0.313234	graph=/graphs/soc-LiveJournal_shuf.adj

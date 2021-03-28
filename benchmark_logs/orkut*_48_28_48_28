@@ -1,0 +1,46 @@
+Num workers: 48
+Inserting edges
+Construction finished. Nodes: 3072627 Edges: 234370166 Size: 2.46072 GB
+Inserting edges: Total Time Elapsed: 59.135799seconds
+Throughput: 3.96325e+06
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.506051	iteration=0
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.489929	iteration=1
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.489846	iteration=2
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.491424	iteration=3
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.489768	iteration=4
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.496162	iteration=5
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.494408	iteration=6
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.495621	iteration=7
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.493792	iteration=8
+Running PR
+max iters 10
+PR finished
+	test=PR	time=0.493631	iteration=9
+AVG	test=PR	time=0.494063	graph=/graphs/com-orkut.ungraph.adj.shuf

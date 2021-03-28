@@ -1,0 +1,67 @@
+the graph container takes inputs in edgelist form
+
+*** GENERATING RMAT GRAPHS ***
+a = 0:5; b = c = 0:1; d = 0:3 to
+to generate an rmat graph in edgelist format, go to 
+ligra/utils
+make rMatGraph
+./rMatGraph -s -m <num edges> -a <a> -b <b> -c <c> <num vertices> <output file>
+
+for example,
+./rMatGraph -s -m 5000000 -a 0.5 -b 0.1 -c 0.1 1000000 rmat_5M_1M
+
+*** GRAPH INPUT FORMATS ***
+ligra / aspen take graphs in adj format.
+
+to convert a graph from SNAP to adj, go to ligra/utils and do
+make SNAPtoAdj
+
+then to convert to a symmetric graph:
+./SNAPtoAdj -s <input SNAP file> <output file>
+
+for example,
+./SNAPtoAdj -s out-soc-LiveJournal1.txt out-soc-LiveJournal1.adj
+
+to convert a graph from edgelist to adj, go to ligra/utils and do
+make EltoAdj
+
+then to convert to a symmetric graph:
+./EltoAdj -s <input EL file> <output file>
+
+for example,
+./EltoAdj -s rand-out-soc-Slashdot0811.txt slashdot.adj
+
+*** RUNNING LIGRA ***
+once you have the graphs in adj format, you can run kernels in ligra 
+go to ligra/apps
+then make CILK=1 -j
+
+the -s flag is for symmetric graphs
+to build the kernels. For example, to run BFS from src 10
+./BFS -r 10 -s <input graph in adj format>
+
+*** RUNNING LIGRA PLUS ***
+before running in ligra+, you need to convert the graph from
+adj format to compressed format using the encoder in ligra/apps
+for symmetric graphs, run
+./encoder -s <input file> <output name>
+
+for example,
+./encoder -s example.adj example.adj.compressed
+
+Then to run with ligra+, use the same kernels but with the -c flag
+e.g.
+./BFS -c -r 10 -s <input graph in compressed format>
+
+*** RUNNING ASPEN ***
+to build aspen, go to aspen/code and run
+make run_static_algorithm
+
+to run BFS,
+./run_static_algorithm -t BFS -src <source vtx> -f <input file in adj format>
+
+to run BC,
+./run_static_algorithm -t BC -src <source vtx> -f <input file in adj format>
+
+to run PR,
+./run_static_algorithm -t PR -maxiters <PR iters> -f <input file in adj format>

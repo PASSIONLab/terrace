@@ -1,0 +1,139 @@
+Num workers: 48
+Inserting edges
+Construction finished. Nodes: 61578414 Edges: 2405026092 Size: 43.7823 GB
+Inserting edges: Total Time Elapsed: 1737.333740seconds
+Throughput: 1.38432e+06
+Running BFS from source = 6662945
+BFS finished. parent of 6662945: 6662945
+	test=BFS	time=0.366599	iteration=0
+Running BFS from source = 6662945
+BFS finished. parent of 6662945: 6662945
+	test=BFS	time=0.356532	iteration=1
+Running BFS from source = 6662945
+BFS finished. parent of 6662945: 6662945
+	test=BFS	time=0.346219	iteration=2
+Running BFS from source = 6662945
+BFS finished. parent of 6662945: 6662945
+	test=BFS	time=0.359217	iteration=3
+Running BFS from source = 6662945
+BFS finished. parent of 6662945: 6662945
+	test=BFS	time=0.356797	iteration=4
+Running BFS from source = 6662945
+BFS finished. parent of 6662945: 6662945
+	test=BFS	time=0.280848	iteration=5
+Running BFS from source = 6662945
+BFS finished. parent of 6662945: 6662945
+	test=BFS	time=0.355292	iteration=6
+Running BFS from source = 6662945
+BFS finished. parent of 6662945: 6662945
+	test=BFS	time=0.279364	iteration=7
+Running BFS from source = 6662945
+BFS finished. parent of 6662945: 6662945
+	test=BFS	time=0.347828	iteration=8
+Running BFS from source = 6662945
+BFS finished. parent of 6662945: 6662945
+	test=BFS	time=0.279219	iteration=9
+AVG	test=BFS	time=0.332791	graph=/graphs/twitter.adj.shuf
+Running PR
+max iters 5
+PR finished
+	test=PR	time=9.01819	iteration=0
+Running PR
+max iters 5
+PR finished
+	test=PR	time=9.00372	iteration=1
+Running PR
+max iters 5
+PR finished
+	test=PR	time=9.14807	iteration=2
+Running PR
+max iters 5
+PR finished
+	test=PR	time=9.00312	iteration=3
+Running PR
+max iters 5
+PR finished
+	test=PR	time=9.08146	iteration=4
+Running PR
+max iters 5
+PR finished
+	test=PR	time=9.02818	iteration=5
+Running PR
+max iters 5
+PR finished
+	test=PR	time=9.01298	iteration=6
+Running PR
+max iters 5
+PR finished
+	test=PR	time=9.02008	iteration=7
+Running PR
+max iters 5
+PR finished
+	test=PR	time=8.99434	iteration=8
+Running PR
+max iters 5
+PR finished
+	test=PR	time=9.0232	iteration=9
+AVG	test=PR	time=9.03333	graph=/graphs/twitter.adj.shuf
+Running CC
+CC finished
+	test=CC	time=4.27997	iteration=0
+Running CC
+CC finished
+	test=CC	time=4.36114	iteration=1
+Running CC
+CC finished
+	test=CC	time=4.30389	iteration=2
+Running CC
+CC finished
+	test=CC	time=4.36398	iteration=3
+Running CC
+CC finished
+	test=CC	time=4.29735	iteration=4
+Running CC
+CC finished
+	test=CC	time=4.31699	iteration=5
+Running CC
+CC finished
+	test=CC	time=4.33986	iteration=6
+Running CC
+CC finished
+	test=CC	time=4.36776	iteration=7
+Running CC
+CC finished
+	test=CC	time=4.28772	iteration=8
+Running CC
+CC finished
+	test=CC	time=4.27093	iteration=9
+AVG	test=CC	time=4.31896	graph=/graphs/twitter.adj.shuf
+Running BC from source = 6662945
+BC finished
+	test=BC	time=2.31202	iteration=0
+Running BC from source = 6662945
+BC finished
+	test=BC	time=2.51908	iteration=1
+Running BC from source = 6662945
+BC finished
+	test=BC	time=2.52025	iteration=2
+Running BC from source = 6662945
+BC finished
+	test=BC	time=2.55321	iteration=3
+Running BC from source = 6662945
+BC finished
+	test=BC	time=2.55305	iteration=4
+Running BC from source = 6662945
+BC finished
+	test=BC	time=2.56696	iteration=5
+Running BC from source = 6662945
+BC finished
+	test=BC	time=2.6006	iteration=6
+Running BC from source = 6662945
+BC finished
+	test=BC	time=2.57417	iteration=7
+Running BC from source = 6662945
+BC finished
+	test=BC	time=2.58355	iteration=8
+Running BC from source = 6662945
+BC finished
+	test=BC	time=2.51871	iteration=9
+AVG	test=BC	time=2.53016	graph=/graphs/twitter.adj.shuf

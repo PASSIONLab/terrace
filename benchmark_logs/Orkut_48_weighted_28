@@ -1,0 +1,27 @@
+Num workers: 48
+none
+Inserting edges
+Construction finished. Nodes: 3072627 Edges: 234370166 Size: 2.71192 GB
+Inserting edges: Total Time Elapsed: 54.250847seconds
+Throughput: 4.32012e+06
+BF start 28, num_vertices 3072627
+	test=SSSP_BF	time=0.507836	iteration=0
+BF start 28, num_vertices 3072627
+	test=SSSP_BF	time=0.50679	iteration=1
+BF start 28, num_vertices 3072627
+	test=SSSP_BF	time=0.505263	iteration=2
+BF start 28, num_vertices 3072627
+	test=SSSP_BF	time=0.505032	iteration=3
+BF start 28, num_vertices 3072627
+	test=SSSP_BF	time=0.503224	iteration=4
+BF start 28, num_vertices 3072627
+	test=SSSP_BF	time=0.51467	iteration=5
+BF start 28, num_vertices 3072627
+	test=SSSP_BF	time=0.600241	iteration=6
+BF start 28, num_vertices 3072627
+	test=SSSP_BF	time=0.507859	iteration=7
+BF start 28, num_vertices 3072627
+	test=SSSP_BF	time=0.596396	iteration=8
+BF start 28, num_vertices 3072627
+	test=SSSP_BF	time=0.504043	iteration=9
+AVG	test=SSSP_BF	time=0.525135	graph=/graphs/com-orkut.sym.txt.shuf.weighted.adj

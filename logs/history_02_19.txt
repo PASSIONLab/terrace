@@ -1,0 +1,1000 @@
+ 1021  cd ../aspen/code/
+ 1022  ls
+ 1023  taskset -c 0 ./run_static_algorithm -s -t BC -src 9 -f /graphs/soc-LiveJournal_shuf.adj 
+ 1024  ./run_static_algorithm -s -t BC -src 9 -f /graphs/soc-LiveJournal_shuf.adj 
+ 1025  taskset -c 0./run_static_algorithm -s -t BC -src 9 -f /graphs/soc-LiveJournal_shuf.adj 
+ 1026  taskset -c 0 ./run_static_algorithm -s -t BC -src 9 -f /graphs/soc-LiveJournal_shuf.adj 
+ 1027  cd ../../skewgraphstore/ligra_and_aspen/
+ 1028  cat others_queries_1 
+ 1029  cd aspen/to
+ 1030  cd aspen/code/
+ 1031  ls
+ 1032  taskset -c 0 ./run_static_algorithm -s -t BC -src 9 -f /graphs/soc-LiveJournal_shuf.adj
+ 1033  vi tools/run_static_algorithm.cpp 
+ 1034  make CILK=1 run_static_algorithm
+ 1035  cd ..
+ 1036  ls
+ 1037  cd ..
+ 1038  cp run_others.sh run_others_aspen.sh
+ 1039  vi run_others_aspen.sh
+ 1040  cd ligra_and_aspen/
+ 1041  ../run_others_aspen.sh 
+ 1042  top
+ 1043  ../run_others_aspen.sh > others_queries_1_aspen
+ 1044  top
+ 1045  top -h
+ 1046  top -H
+ 1047  cd ..
+ 1048  vi run_gc_twitter.sh 
+ 1049  ./run_gc_twitter.sh 
+ 1050  l
+ 1051  rm twitter\*_48_6662945_1_6662945 
+ 1052  vi run_gc_twitter.sh 
+ 1053  ls
+ 1054  less gc_queries_twitter 
+ 1055  ./run_gc_twitter.sh 
+ 1056  ls
+ 1057  cd graphstore/
+ 1058  ls
+ 1059  make clean
+ 1060  git status
+ 1061  git checkout src/graph_bm.cc
+ 1062  ls
+ 1063  vi src/graph_bm.cc 
+ 1064  vi src/graph_bm_no_update.cc 
+ 1065  ls
+ 1066  vi ../ligra_and_aspen/ligra/apps/PageRank.C
+ 1067  make clean
+ 1068  ls
+ 1069  git status
+ 1070  git add src/graph_bm*
+ 1071  git status
+ 1072  git commit -m "maxiters to 10"
+ 1073  git push
+ 1074  ls
+ 1075  cd ..
+ 1076  vi run_gc.sh 
+ 1077  less gc_queries
+ 1078  vi gc_queries_twitter 
+ 1079  rm gc_queries_twitter 
+ 1080  mv gc_queries gc_queries_1
+ 1081  ls
+ 1082  cd graphstore/
+ 1083  ls
+ 1084  make CILK=1 graph_bm_no_update 
+ 1085  vi src/graph_bm_no_update.cc 
+ 1086  make clean
+ 1087  make CILK=1 graph_bm_no_update 
+ 1088  cd ..
+ 1089  ls
+ 1090  ./run_gc.sh 
+ 1091  vi run_gc.sh 
+ 1092  ls
+ 1093  less lj\*_48_9_1_9 
+ 1094  ./run_gc.sh 
+ 1095  vi run_gc.sh 
+ 1096  ./run_gc.sh 
+ 1097  vi run_gc.sh 
+ 1098  vi run_gc_1.sh
+ 1099  cp run_gc_1.sh run_gc_1_protein.sh 
+ 1100  vi run_gc_1_protein.sh 
+ 1101  ./run_gc_1_protein.sh 
+ 1102  cat gc_queries_1 
+ 1103  grep protein gc_queries_1 
+ 1104  cat gc_queries_new_1 
+ 1105  cp gc_queries_new_1 benchmark_logs/
+ 1106  git status
+ 1107  git add benchmark_logs/gc_queries_new_1 
+ 1108  git commit -m "logs"
+ 1109  git ppush
+ 1110  git push
+ 1111  git status
+ 1112  git checkout graphstore/src/graph_bm.cc
+ 1113  git checkout graphstore/include/graph.h
+ 1114  git status
+ 1115  sudo shutdown 
+ 1116  ls
+ 1117  cd ..
+ 1118  exit
+ 1119  ls
+ 1120  less lj\*_48_9 
+ 1121  ls
+ 1122  less lj\*_48_9 
+ 1123  cat gc_queries 
+ 1124  cat ligra_and_aspen/others_queries 
+ 1125  ls
+ 1126  vi graphstore/src/graph_bm_no_update.cc 
+ 1127  ls
+ 1128  less lj\*_48_9 
+ 1129  cat lj\*_48_9 
+ 1130  cd ligra_and_aspen/ligra/apps/
+ 1131  vi status
+ 1132  git status
+ 1133  vi BFS.C 
+ 1134  make clean
+ 1135  make CILK=1
+ 1136  cd ../../
+ 1137  cd ..
+ 1138  ls
+ 1139  less lj\*_48_9 
+ 1140  cat gc_queries 
+ 1141  top
+ 1142  cat gc_queries 
+ 1143  ls
+ 1144  less run_gc.sh 
+ 1145  less twitter\*_48_6662945 
+ 1146  cat gc_queries 
+ 1147  cat ligra_and_aspen/others_queries 
+ 1148  yop
+ 1149  top
+ 1150  ls
+ 1151  less LJ_48_weighted_9 
+ 1152  cat gc_queries 
+ 1153  ls
+ 1154  cat gc_queries 
+ 1155  ls
+ 1156  cat gc_queries 
+ 1157  cd ligra_and_aspen/
+ 1158  cat others_queries_1 
+ 1159  ls
+ 1160  cat others_queries_1 
+ 1161  ls
+ 1162  cd ..
+ 1163  vi run_gc.sh 
+ 1164  ks
+ 1165  ls
+ 1166  cat ligra_and_aspen/others_queries_1 
+ 1167  ls
+ 1168  ./run_gc.sh 
+ 1169  vi run_gc.sh 
+ 1170  ls
+ 1171  cat lj\*_48_9
+ 1172  cat lj\*_48_9_1_9 
+ 1173  ls
+ 1174  rm lj\*_48_9_1_9 
+ 1175  vi run_gc.sh 
+ 1176  fg
+ 1177  ./run_gc.sh 
+ 1178  ls
+ 1179  rm lj\*_48_9_1_9 
+ 1180  fg
+ 1181  ./run_gc.sh 
+ 1182  ls
+ 1183  rm gc_queries
+ 1184  ls
+ 1185  rm rmat\*_48_19372_1_19372 lj\*_48_9_1_9 orkut\*_48_28_1_28 
+ 1186  ls
+ 1187  vi run_others
+ 1188  vi run_others.sh 
+ 1189  vi run_gc.sh 
+ 1190  ./run_gc.sh 
+ 1191  ls
+ 1192  less twitter\*_48_6662945_1_6662945
+ 1193  rm twitter\*_48_6662945_1_6662945
+ 1194  less twitter\*_48_6662945_1_6662945_twitter 
+ 1195  vi run_gc.sh 
+ 1196  ./run_gc.sh 
+ 1197  top
+ 1198  cat gc_queries
+ 1199  cat gc_queries_1 
+ 1200  ls -lh gc_queries
+ 1201  ls -lh gc_queries*
+ 1202  cat gc_queries
+ 1203  cat gc_queries_1 
+ 1204  cat gc_queries
+ 1205  top
+ 1206  cat gc_queries
+ 1207  cat gc_queries_1 
+ 1208  vi run_gc_1.sh 
+ 1209  vi graphstore/src/graph_bm_no_update.cc 
+ 1210  vi run_gc_1.sh 
+ 1211  cat gc_queries_1 
+ 1212  ls
+ 1213  cat gc_queries_new_1 
+ 1214  top
+ 1215  ls
+ 1216  git status
+ 1217  mkdir benchmark_logs
+ 1218  cp gc_queries* benchmark_logs/
+ 1219  cp gc_updates* benchmark_logs/
+ 1220  ls
+ 1221  cp aspen_updates_* benchmark_logs/
+ 1222  cp LJ_* benchmark_logs/
+ 1223  cp Orkut_* benchmark_logs/
+ 1224  cp lj\*_48_9* benchmark_logs/
+ 1225  cp orkut\*_48_28* benchmark_logs/
+ 1226  cp protein_* benchmark_logs/
+ 1227  cp rMAT_* benchmark_logs/
+ 1228  cp twitter\*_48_6662945* benchmark_logs/
+ 1229  ls benchmark_logs/
+ 1230  cp ligra_and_aspen/others_queries_* benchmark_logs/
+ 1231  ls
+ 1232  ls benchmark_logs/
+ 1233  git status
+ 1234  git add benchmark_logs/*
+ 1235  git status
+ 1236  git commit -m "Adding benchmark logs."
+ 1237  git push
+ 1238  top
+ 1239  exit
+ 1240  ls
+ 1241  ./run_gc.sh 
+ 1242  ls
+ 1243  mv gc_old_garbage
+ 1244  mkdir gc_old_garbage
+ 1245  mv lj\*_48_9 rmat\*_48_19372 Orkut_48_weighted_28 LJ_48_weighted_9 rMAT_48_weighted_19372 orkut\*_48_28 gc_old_garbage/
+ 1246  ls
+ 1247  mv lj\*_48_9_48_9 gc_old_garbage/
+ 1248  ls
+ 1249  mv twitter\*_48_6662945 gc_old_garbage/
+ 1250  ls
+ 1251  mv gc_queries.old.garbage gc_old_garbage/
+ 1252  ls
+ 1253  less gc_queries 
+ 1254  less gc_updates
+ 1255  mv protein_48_35 gc_old_garbage/
+ 1256  ls
+ 1257  ./run_gc.sh 
+ 1258  ls
+ 1259  rm gc_queries 
+ 1260  rm lj\*_48_9 
+ 1261  rm orkut\*_48_28 
+ 1262  ls
+ 1263  ls ligra_and_aspen/ligra/apps/
+ 1264  cd ligra_and_aspen/ligra/apps/
+ 1265  ls
+ 1266  vi BC.C 
+ 1267  vi BFS.C 
+ 1268  ls
+ 1269  make 
+ 1270  make clean
+ 1271  make CILK=1 
+ 1272  ls
+ 1273  #./BFS -s -r 9 /graphs/soc-LiveJournal_shuf.adj 
+ 1274  ls *.out
+ 1275  ./BFS -s -r 9 /graphs/soc-LiveJournal_shuf.adj 
+ 1276  ls
+ 1277  less bfs.out 
+ 1278  cd ../../
+ 1279  cd ..
+ 1280  cd graphstore/
+ 1281  vi src/graph_bm_no_update.cc 
+ 1282  make clean
+ 1283  make CILK=1 graph_bm_no_update 
+ 1284  #./graph_bm_no_update -src 9 -f /graphs/soc-LiveJournal_shuf.adj 
+ 1285  ls
+ 1286  ls *,out
+ 1287  ls *.out
+ 1288  rm bc.out 
+ 1289  ./graph_bm_no_update -src 9 -f /graphs/soc-LiveJournal_shuf.adj 
+ 1290  ls
+ 1291  wc -l bfs.out 
+ 1292  wc -l ../ligra_and_aspen/ligra/apps/bfs.out 
+ 1293  diff bfs.out ../ligra_and_aspen/ligra/apps/bfs.out 
+ 1294  git status
+ 1295  git checkout src/graph_bm_no_update.cc
+ 1296  vi src/graph_bm_no_update.cc 
+ 1297  make clean
+ 1298  make CILK=1 graph_bm graph_bm_no_update 
+ 1299  cd ..
+ 1300  ls
+ 1301  ./run_gc.sh 
+ 1302  cd graphstore/
+ 1303  ls
+ 1304  make CILK=1 graph_bm_weighted
+ 1305  ls
+ 1306  vi test_gc.sh 
+ 1307  cd ..
+ 1308  vi run_gc.sh 
+ 1309  ls
+ 1310  rm rMAT_48_weighted_19372  LJ_48_weighted_9 Orkut_48_weighted_28 
+ 1311  ./run_gc.sh 
+ 1312  pwd
+ 1313  ls
+ 1314  cd ..
+ 1315  cd skewgraphstore/ligra_and_aspen/
+ 1316  cd ligra/apps/
+ 1317  ls
+ 1318  vi BFS.C 
+ 1319  ls
+ 1320  make clean
+ 1321  make CILK=1
+ 1322  ls
+ 1323  ./BFS -s -r 28 /graphs/com-orkut.ungraph.adj.shuf 
+ 1324  ls
+ 1325  wc -l bfs.out 
+ 1326  cd ../../
+ 1327  cd ..
+ 1328  cd graphstore/
+ 1329  make clea
+ 1330  make clean
+ 1331  vi src/graph_bm_no_update.cc 
+ 1332  make CILK=1 graph_bm_no_update 
+ 1333  ./graph_bm_no_update -src 28 -f /graphs/com-orkut.ungraph.adj.shuf 
+ 1334  wc -l bfs.out 
+ 1335  ls -l bfs.out 
+ 1336  ls ../ligra_and_aspen/ligra/apps/bfs.out 
+ 1337  ls -l ../ligra_and_aspen/ligra/apps/bfs.out 
+ 1338  diff bfs.out ../ligra_and_aspen/ligra/apps/bfs.out 
+ 1339  ls
+ 1340  git status
+ 1341  ls
+ 1342  vi include/BellmanFord
+ 1343  vi include/BellmanFord.h 
+ 1344  vi src/graph_bm_weighted.cc 
+ 1345  make CILK=1 graph_bm_weighted 
+ 1346  ls
+ 1347  ./graph_bm_weighted -src 28 -f /graphs/soc-LiveJournal_shuf.adj 
+ 1348  ./graph_bm_weighted -src 28 -f /graphs/rand-out-soc-LiveJournal1.txt.shuf.weighted.adj 
+ 1349  ls
+ 1350  wc -l sssp.out 
+ 1351  cd ../
+ 1352  cd ligra_and_aspen/ligra/apps/
+ 1353  vi BellmanFord.C 
+ 1354  make clean
+ 1355  make CILK=1 
+ 1356  cd ../../../
+ 1357  ls
+ 1358  cat gc_queries 
+ 1359  cat ligra_and_aspen/others_queries 
+ 1360  cd ligra_and_aspen/ligra/apps/
+ 1361  ./BellmanFord -s -r 28 /graphs/rand-out-soc-LiveJournal1.txt.shuf.weighted.adj 
+ 1362  ls sssp.out 
+ 1363  ls -l sssp.out 
+ 1364  ls -l ../../../graphstore/sssp.out 
+ 1365  diff ../../../graphstore/sssp.out sssp.out 
+ 1366  vi ../../../graphstore/sssp.out
+ 1367  ls
+ 1368  make clean
+ 1369  ls
+ 1370  ls *.out
+ 1371  rm *.out
+ 1372  ls
+ 1373  vi BellmanFord.C 
+ 1374  vi BFS.C 
+ 1375  grep ostream *
+ 1376  grep myfile *
+ 1377  make clean
+ 1378  make CILK=1 
+ 1379  ls
+ 1380  grep myfile *
+ 1381  vi BFS.C 
+ 1382  vi BellmanFord
+ 1383  vi BellmanFord.C 
+ 1384  cd ../../
+ 1385  cd ..
+ 1386  cd graphstore/
+ 1387  ls
+ 1388  git status
+ 1389  rm *.out
+ 1390  ls
+ 1391  make clean
+ 1392  git status
+ 1393  git checkout src/graph_bm_no_update.cc
+ 1394  git checkout src/graph_bm_weighted.cc
+ 1395  ls
+ 1396  vi src/graph_bm_no_update.cc 
+ 1397  git status
+ 1398  git add src/graph_bm_*
+ 1399  git status
+ 1400  git commit -m "print out num cores."
+ 1401  git push
+ 1402  ls
+ 1403  make CILK=1 graph_bm_no_update graph_bm_weighted graph_bm
+ 1404  ls
+ 1405  cd ..
+ 1406  ls
+ 1407  mv gc_queries gc_queries_48
+ 1408  ls
+ 1409  vi run_others.sh 
+ 1410  vi run_gc.sh 
+ 1411  cd ligra_and_aspen/
+ 1412  ls
+ 1413  mv others_queries others_queries_48
+ 1414  ../run_others.sh > others_queries_1
+ 1415  vi ../run_others.sh 
+ 1416  ls
+ 1417  rm others_queries_1 
+ 1418  vi ../run_others.sh 
+ 1419  ../run_others.sh > others_queries_1
+ 1420  ls
+ 1421  rm others_queries_1 
+ 1422  cp ../run_others.sh ../run_others_aspen.sh
+ 1423  vi ../run_others.sh 
+ 1424  vi ../run_others_aspen.sh 
+ 1425  ../run_others.sh > others_queries_1_ligra
+ 1426  top
+ 1427  cd ..
+ 1428  cat gc_queries
+ 1429  cat gc_queries_1 
+ 1430  cat gc_queries_new_1 
+ 1431  cat gc_queries
+ 1432  cat gc_queries_48 
+ 1433  cat gc_queries_1 
+ 1434  cat gc_queries_new_1 
+ 1435  cat gc_queries
+ 1436  grep PR gc_queries
+ 1437  grep PR gc_queries_1 
+ 1438  grep PR gc_queries_new_1 
+ 1439  top
+ 1440  grep PR gc_queries
+ 1441  grep PR gc_queries_new_1 
+ 1442  top
+ 1443  grep PR gc_queries
+ 1444  top
+ 1445  grep PR gc_queries
+ 1446  grep PR gc_queries_new_1 
+ 1447  cat gc_queries_new_1 
+ 1448  top
+ 1449  cat gc_queries_new_1 
+ 1450  top
+ 1451  cat gc_queries_new_1 
+ 1452  top
+ 1453  git status
+ 1454  cd graphstore/
+ 1455  ls
+ 1456  git diff src/graph_bm_no_update.cc
+ 1457  git checkout src/graph_bm_no_update.cc
+ 1458  top
+ 1459  ls
+ 1460  make clean
+ 1461  vi src/graph_bm.cc 
+ 1462  vi include/graph.h 
+ 1463  ls
+ 1464  make CILK=1 graph_bm graph_bm_no_update 
+ 1465  ls
+ 1466  ./graph_bm -f /graphs/soc-LiveJournal_shuf.adj 
+ 1467  ./graph_bm -f /graphs/com-orkut.ungraph.adj.shuf 
+ 1468  ./graph_bm -f /graphs/rmat_ligra.adj.shuf 
+ 1469  ./graph_bm -f /graphs/protein.adj 
+ 1470  ./graph_bm -f /graphs/twitter.adj.shuf 
+ 1471  top
+ 1472  exit
+ 1473  ls
+ 1474  lsblk 
+ 1475  ls /graphs/
+ 1476  ls
+ 1477  ls /graphs/
+ 1478  sudo mount nvme1n1 /graphs
+ 1479  sudo mount -t nvme1n1 /graphs
+ 1480  lsblk 
+ 1481  sudo mount nvme1n1 /graphs
+ 1482  sudo mount /dev/nvme1n1 /graphs
+ 1483  ls /graphs/
+ 1484  ls
+ 1485  cd skewgraphstore/
+ 1486  ls
+ 1487  git log 
+ 1488  git pullk
+ 1489  git pull
+ 1490  ls
+ 1491  cd graphstore/
+ 1492  ls
+ 1493  make clean
+ 1494  ls
+ 1495  rm lj\*_48_weight_9 
+ 1496  ls
+ 1497  cd ..
+ 1498  ls
+ 1499  cd graphstore/
+ 1500  export PATH=~/OpenCilk-9.0.1-Linux/bin/:$PATH
+ 1501  make CILK=1 graph_bm graph_bm_no_update 
+ 1502  ls
+ 1503  cd ..
+ 1504  ls
+ 1505  less gc_updates
+ 1506  less gc_queries 
+ 1507  mv gc_queries gc_queries.old.garbage
+ 1508  ls
+ 1509  vi run_gc.sh 
+ 1510  ls
+ 1511  tmux ls
+ 1512  tmux 
+ 1513  cd ..
+ 1514  cd aspen/code/
+ 1515  ls
+ 1516  cd tools/
+ 1517  ls
+ 1518  vi run_static_algorithm.cpp 
+ 1519  cd ../../../
+ 1520  cd skewgraphstore/
+ 1521  vi run_others.sh 
+ 1522  top
+ 1523  cat ligra_and_aspen/others_queries_1 
+ 1524  top
+ 1525  ls
+ 1526  cat gc_queries
+ 1527  cat ligra_and_aspen/others_queries_1 
+ 1528  vi ligra_and_aspen/others_queries_1 
+ 1529  top
+ 1530  cat gc_queries
+ 1531  cd ligra_and_aspen/
+ 1532  ls
+ 1533  cat others_queries_1_aspen 
+ 1534  cat others_queries_1_ligra 
+ 1535  top
+ 1536  cd ..
+ 1537  cat gc_queries
+ 1538  ls
+ 1539  cd ../
+ 1540  #./memory_footprint -f /graphs/twitter.adj.shuf 
+ 1541  cd aspen/code/
+ 1542  ls
+ 1543  ./memory_footprint -f /graphs/soc-LiveJournal_shuf.adj 
+ 1544  cd ../../
+ 1545  cd skewgraphstore/ligra_and_aspen/aspen/code/
+ 1546  ls
+ 1547  ./memory_footprint -f /graphs/soc-LiveJournal_shuf.adj 
+ 1548  ./memory_footprint -f /graphs/com-orkut.ungraph.adj.shuf 
+ 1549  ./memory_footprint -f /graphs/rmat_ligra.adj.shuf 
+ 1550  ./memory_footprint -f /graphs/rmat_ligra.adj.shuf > aspen_temp
+ 1551  vi aspen_temp 
+ 1552  ./memory_footprint -f /graphs/protein.adj > aspen_temp
+ 1553  vi aspen_temp 
+ 1554  ./memory_footprint -f /graphs/twitter.adj.shuf > aspen_temp
+ 1555  less aspen_temp 
+ 1556  ./memory_footprint -f /graphs/twitter.adj.shuf > aspen_temp
+ 1557  less aspen_temp 
+ 1558  ls
+ 1559  cd ../../
+ 1560  cd ..
+ 1561  cat gc_queries
+ 1562  cp run_gc.sh run_gc_twitter.sh
+ 1563  vi run_gc.sh 
+ 1564  vi run_gc_twitter.sh 
+ 1565  top
+ 1566  ls
+ 1567  top
+ 1568  cat gc_queries
+ 1569  top
+ 1570  cat gc_queries
+ 1571  top
+ 1572  ls
+ 1573  less protein_1_35 
+ 1574  top
+ 1575  less protein_1_35 
+ 1576  less twitter\*_48_6662945_1_6662945_twitter 
+ 1577  less protein_1_35 
+ 1578  ls
+ 1579  cat gc_queries
+ 1580  less protein_1_35 
+ 1581  less twitter\*_48_6662945_1_6662945_twitter 
+ 1582  top
+ 1583  less protein_1_35 
+ 1584  less twitter\*_48_6662945_1_6662945_twitter 
+ 1585  top
+ 1586  ls
+ 1587  cd ligra_and_aspen/
+ 1588  ls
+ 1589  car others_queries_1_
+ 1590  car others_queries_1_ligra 
+ 1591  cat others_queries_1_ligra 
+ 1592  cat others_queries_1_aspen 
+ 1593  cd ..
+ 1594  cat gc_queries
+ 1595  top
+ 1596  cat gc_queries
+ 1597  top
+ 1598  bc -l
+ 1599  ls
+ 1600  cat gc_queries
+ 1601  bc -l
+ 1602  top
+ 1603  cat gc_queries
+ 1604  bc -l
+ 1605  free -h
+ 1606  top
+ 1607  ls
+ 1608  cat twitter\*_48_6662945_1_6662945_twitter 
+ 1609  cd ..
+ 1610  cd skewgraphstore/ligra_and_aspen/ligra/apps/
+ 1611  vi PageRank.C
+ 1612  make clean
+ 1613  make CILK=1 
+ 1614  ls
+ 1615  ./PageRank -s /graphs/slashdot.adj 
+ 1616  ls *.out
+ 1617  cd ../../../
+ 1618  cd graphstore/
+ 1619  ls
+ 1620  top
+ 1621  vi src/graph_bm.cc 
+ 1622  ls
+ 1623  make CILK=1 graph_bm
+ 1624  s
+ 1625  ls
+ 1626  ./graph_bm -f /graphs/slashdot.adj 
+ 1627  ls
+ 1628  ls *.out
+ 1629  ls -l *.out
+ 1630  ls -l ../ligra_and_aspen/ligra/apps/*.out
+ 1631  diff p_curr_s.out ../ligra_and_aspen/ligra/apps/p_curr_s.out 
+ 1632  head -n 10 p_curr_s.out 
+ 1633  head -n 10 p_next_s.out 
+ 1634  hean ../ligra_and_aspen/ligra/apps/p_curr_s.out 
+ 1635  head -n ../ligra_and_aspen/ligra/apps/p_curr_s.out 
+ 1636  head -n 10 ../ligra_and_aspen/ligra/apps/p_curr_s.out 
+ 1637  head -n 10 ../ligra_and_aspen/ligra/apps/p_next_s.out 
+ 1638  head -n 10 p_curr_s.out 
+ 1639  head -n 10 p_next_s.out 
+ 1640  vi include/Pagerank.h 
+ 1641  vi src/graph_bm.cc 
+ 1642  ls
+ 1643  make CILK=1 graph_bm
+ 1644  ./graph_bm -f /graphs/slashdot.adj 
+ 1645  head -n 10 p_curr_s.out 
+ 1646  head -n 10 ../ligra_and_aspen/ligra/apps/p_curr_s.out 
+ 1647  diff p_curr_s.out ../ligra_and_aspen/ligra/apps/p_curr_s.out
+ 1648  cd ..
+ 1649  cd ligra_and_aspen/ligra/apps/
+ 1650  ./PageRank -s /graphs/soc-LiveJournal_shuf.adj 
+ 1651  cd ../../../
+ 1652  cd graphstore/
+ 1653  ls
+ 1654  ./graph_bm -f /graphs/slashdot.adj 
+ 1655  ./graph_bm -f /graphs/soc-LiveJournal_shuf.adj 
+ 1656  diff p_curr_s.out ../ligra_and_aspen/ligra/apps/p_curr_s.out
+ 1657  top
+ 1658  cd ..
+ 1659  cat gc_queries
+ 1660  top
+ 1661  ls
+ 1662  cat lj\*_48_9_48_9 
+ 1663  cat gc_queries
+ 1664  ls
+ 1665  rm run_gc_twitter.sh 
+ 1666  cp run_gc.sh run_gc_1.sh
+ 1667  vi run_gc_1.sh 
+ 1668  ./run_gc_1.sh 
+ 1669  vi run_gc_1.sh 
+ 1670  ./run_gc_1.sh 
+ 1671  cat gc_queries_new_1 
+ 1672  cat gc_queries_1 
+ 1673  ls
+ 1674  cd skewgraphstore/
+ 1675  ls
+ 1676  cd graphstore/
+ 1677  ls
+ 1678  exit
+ 1679  lsblk
+ 1680  ls
+ 1681  sudo file -s /dev/nvme0n1
+ 1682  sudo mount /dev/nvme0n1 /graphs/
+ 1683  ls /graphs/
+ 1684  vim notes_to_get_graphs
+ 1685  exit
+ 1686  ls
+ 1687  cd OpenCilk-9.0.1-Linux/
+ 1688  ls
+ 1689  cd bin/
+ 1690  ls
+ 1691  exit
+ 1692  ls
+ 1693  cd skewgraphstore/
+ 1694  ls
+ 1695  cd graphstore/
+ 1696  ls
+ 1697  cd ..
+ 1698  ;s
+ 1699  ls
+ 1700  cat run_gc.sh
+ 1701  ls
+ 1702  vi run_gc_1.sh 
+ 1703  vi run_others
+ 1704  vi run_others.sh 
+ 1705  vi run_gc_1.sh 
+ 1706  ls
+ 1707  less gc_updates_1 
+ 1708  less gc_updates_lj 
+ 1709  ls gc_old_garbage/
+ 1710  ls
+ 1711  vi run_gc_1.sh 
+ 1712  ls
+ 1713  cd graphstore/
+ 1714  ls
+ 1715  vi graph_bm_no_update 
+ 1716  ls
+ 1717  cd ..
+ 1718  ls
+ 1719  vi run_gc.sh 
+ 1720  history | less
+ 1721  history | grep tmux
+ 1722  tmux list-sessions
+ 1723  history | less
+ 1724  ls
+ 1725  vi run_gc.sh 
+ 1726  cd graphstore/
+ 1727  ls
+ 1728  #taskset -c 0 ./graphstore/graph_bm -f $1 -rounds $ROUNDS -src $2 >> $3\_1\_$2
+ 1729  ls /graphs/
+ 1730  vi ../run_gc.sh 
+ 1731  ls /graphs/com-orkut.ungraph.adj.shuf
+ 1732  history | grep mount
+ 1733  sudo mount /dev/nvme1n1 /graphs
+ 1734  ls /graphs/
+ 1735  df -h
+ 1736  ls /
+ 1737  ls /graphs/
+ 1738  sudo mount -t nvme1n1 /graphs
+ 1739  sudo mount -t /dev/nvme1n1 /graphs
+ 1740  ls /graphs/
+ 1741  cd /graphs/
+ 1742  ls
+ 1743  cd -
+ 1744  ;;s
+ 1745  ls
+ 1746  ls data/
+ 1747  ls
+ 1748  cd ..
+ 1749  ls
+ 1750  vi run_gc_1.sh 
+ 1751  df -h
+ 1752  history | grep mount
+ 1753  sudo mount -t /dev/nvme0n1 /graphs
+ 1754  ls /graphs/
+ 1755  ls
+ 1756  #taskset -c 0 ./graphstore/graph_bm -f $1 -rounds $ROUNDS -src $2 >> $3\_1\_$2
+ 1757  cd graphstore/
+ 1758  vi src/graph_bm.cc 
+ 1759  vi src/graph_bm_no_update.cc 
+ 1760  #taskset -c 0 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src $2 >> $3\_1\_$2
+ 1761  vi ../run_gc.sh 
+ 1762  taskset -c 0 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9
+ 1763  vi ../run_gc.sh 
+ 1764  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9
+ 1765  ls
+ 1766  echo $PATH
+ 1767  ls
+ 1768  clang++
+ 1769  ls
+ 1770  make graph_bm_no_update 
+ 1771  make CILK=1 graph_bm_no_update 
+ 1772  vi include/graph.h 
+ 1773  cd
+ 1774  s
+ 1775  ls
+ 1776  cd OpenCilk-9.0.1-Linux/
+ 1777  ls
+ 1778  cd bin/
+ 1779  ls
+ 1780  export PATH:$PATH:$PWD
+ 1781  export PATH=$PATH:$PWD
+ 1782  cd 
+ 1783  ls
+ 1784  cd skewgraphstore/graphstore/
+ 1785  make CILK=1 graph_bm_no_update 
+ 1786  ls
+ 1787  vi include/graph.h 
+ 1788  make CILK=1 graph_bm_no_update 
+ 1789  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9
+ 1790  vi include/graph.h 
+ 1791  make CILK=1 graph_bm_no_update 
+ 1792  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9
+ 1793  vi include/graph.h 
+ 1794  make CILK=1 graph_bm_no_update 
+ 1795  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9
+ 1796  vi include/graph.h 
+ 1797  git status
+ 1798  make clean && make CILK=1 graph_bm_no_update 
+ 1799  #taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9
+ 1800  vi ../run_gc.sh 
+ 1801  #taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/com-orkut.ungraph.adj.shuf -rounds 10 -src 9
+ 1802  vi ../run_gc.sh 
+ 1803  #taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/com-orkut.ungraph.adj.shuf -rounds 10 -src 28
+ 1804  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/com-orkut.ungraph.adj.shuf -rounds 10 -src 28
+ 1805  fg
+ 1806  make clean && make CILK=1 graph_bm_no_update 
+ 1807  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/com-orkut.ungraph.adj.shuf -rounds 10 -src 28
+ 1808  g
+ 1809  fg
+ 1810  make clean && make CILK=1 graph_bm_no_update 
+ 1811  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/com-orkut.ungraph.adj.shuf -rounds 10 -src 28
+ 1812  fg
+ 1813  make clean && make CILK=1 graph_bm_no_update 
+ 1814  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/com-orkut.ungraph.adj.shuf -rounds 10 -src 28
+ 1815  g
+ 1816  fg
+ 1817  make clean && make CILK=1 graph_bm_no_update 
+ 1818  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/com-orkut.ungraph.adj.shuf -rounds 10 -src 28
+ 1819  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9
+ 1820  g
+ 1821  fg
+ 1822  make clean && make CILK=1 graph_bm_no_update 
+ 1823  #taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9
+ 1824  less ../run_gc.sh 
+ 1825  /graphs/rmat_ligra.adj.shuf 19372
+ 1826  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/rmat_ligra.adj.shuf -rounds 10 -src 19372
+ 1827  fg
+ 1828  g
+ 1829  fg
+ 1830  make clean && make CILK=1 graph_bm_no_update 
+ 1831  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/rmat_ligra.adj.shuf -rounds 10 -src 19372
+ 1832  fg
+ 1833  make clean && make CILK=1 graph_bm_no_update 
+ 1834  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/rmat_ligra.adj.shuf -rounds 10 -src 19372
+ 1835  fg
+ 1836  make clean && make CILK=1 graph_bm_no_update 
+ 1837  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/rmat_ligra.adj.shuf -rounds 10 -src 19372
+ 1838  g
+ 1839  fg
+ 1840  make clean && make CILK=1 graph_bm_no_update 
+ 1841  fg
+ 1842  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/rmat_ligra.adj.shuf -rounds 10 -src 19372
+ 1843  g
+ 1844  git checkout include/graph.h
+ 1845  git status
+ 1846  sudo  shutdown
+ 1847  ls
+ 1848  cd skewgraphstore/
+ 1849  cd ..
+ 1850  ls
+ 1851  cd OpenCilk-9.0.1-Linux/bin/
+ 1852  export PATH=$PATH:$PWD
+ 1853  cd ../
+ 1854  cd ..
+ 1855  cd skewgraphstore/
+ 1856  ls
+ 1857  cd graphstore/
+ 1858  ls
+ 1859  #make clean && make CILK=1 graph_bm_no_update 
+ 1860  vi include/graph.h 
+ 1861  git status
+ 1862  make clean && make CILK=1 graph_bm_no_update 
+ 1863  #taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/rmat_ligra.adj.shuf -rounds 10 -src 19372
+ 1864  vi ../run_gc.sh 
+ 1865  #taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/tw -rounds 10 -src 6662945
+ 1866  history | grep mount
+ 1867  lsblk 
+ 1868  df -h
+ 1869  sudo file -s /dev/nvme1n1 
+ 1870  sudo mount /dev/nvme1n1 /graphs/
+ 1871  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/twitter.adj.shuf -rounds 10 -src 6662945
+ 1872  fg
+ 1873  vi include/graph.h 
+ 1874  make clean && make CILK=1 graph_bm_no_update 
+ 1875  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/twitter.adj.shuf -rounds 10 -src 6662945
+ 1876  vi include/graph.h 
+ 1877  make clean && make CILK=1 graph_bm_no_update 
+ 1878  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/twitter.adj.shuf -rounds 10 -src 6662945
+ 1879  fg
+ 1880  vi include/graph.h 
+ 1881  make clean && make CILK=1 graph_bm_no_update 
+ 1882  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/twitter.adj.shuf -rounds 10 -src 6662945
+ 1883  g
+ 1884  fg
+ 1885  vi include/graph.h 
+ 1886  sudo shutdown 
+ 1887  ls
+ 1888  cd OpenCilk-9.0.1-Linux/
+ 1889  cd bin/
+ 1890  ls
+ 1891  export PATH=$PATH:$PWD
+ 1892  cd ../../
+ 1893  cd sl
+ 1894  cd skewgraphstore/
+ 1895  ls
+ 1896  cd graphstore/
+ 1897  ls
+ 1898  lsblk 
+ 1899  sudo mount /dev/nvme1n1 /graphs/
+ 1900  ls
+ 1901  git status
+ 1902  git checkout include/graph.h
+ 1903  git status
+ 1904  vi include/graph.h 
+ 1905  make clean && make CILK=1 graph_bm_no_update 
+ 1906  history | grep graph_bm_update
+ 1907  history | grep graph_bm
+ 1908  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9
+ 1909  history | grep orkut
+ 1910  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/com-orkut.ungraph.adj.shuf -rounds 10 -src 28
+ 1911  history | grep rmat
+ 1912  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/rmat_ligra.adj.shuf -rounds 10 -src 19372
+ 1913  git checkout include/graph.h
+ 1914  vi include/graph.h 
+ 1915  make clean && make CILK=1 graph_bm_no_update 
+ 1916  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9
+ 1917  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/com-orkut.ungraph.adj.shuf -rounds 10 -src 28
+ 1918  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/rmat_ligra.adj.shuf -rounds 10 -src 19372
+ 1919  vi include/graph.h 
+ 1920  make clean && make CILK=1 graph_bm_no_update 
+ 1921  #taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9
+ 1922  #taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/com-orkut.ungraph.adj.shuf -rounds 10 -src 28
+ 1923  #taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9 && taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/com-orkut.ungraph.adj.shuf -rounds 10 -src 28 && taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/rmat_ligra.adj.shuf -rounds 10 -src 19372
+ 1924  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9 && taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/com-orkut.ungraph.adj.shuf -rounds 10 -src 28 && taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/rmat_ligra.adj.shuf -rounds 10 -src 19372
+ 1925  vi include/graph.h 
+ 1926  make clean && make CILK=1 graph_bm_no_update 
+ 1927  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9 && taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/com-orkut.ungraph.adj.shuf -rounds 10 -src 28 && taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/rmat_ligra.adj.shuf -rounds 10 -src 19372
+ 1928  vi include/graph.h 
+ 1929  make clean && make CILK=1 graph_bm_no_update 
+ 1930  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9 && taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/com-orkut.ungraph.adj.shuf -rounds 10 -src 28 && taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/rmat_ligra.adj.shuf -rounds 10 -src 19372
+ 1931  vi include/graph.h 
+ 1932  fg
+ 1933  git checkout include/graph.h
+ 1934  vi include/graph.h 
+ 1935  make clean && make CILK=1 graph_bm_no_update 
+ 1936  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/soc-LiveJournal_shuf.adj -rounds 10 -src 9 && taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/com-orkut.ungraph.adj.shuf -rounds 10 -src 28 && taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/rmat_ligra.adj.shuf -rounds 10 -src 19372
+ 1937  sudo shutdown 
+ 1938  ls
+ 1939  cd OpenCilk-9.0.1-Linux/bin/
+ 1940  export PATH=$PATH:$PWD
+ 1941  cd ../../
+ 1942  cd skewgraphstore/
+ 1943  ls
+ 1944  git pull
+ 1945  git log 
+ 1946  cd graphstore/
+ 1947  git checkout pma_debug_twitter 
+ 1948  git pull
+ 1949  vi include/graph.h 
+ 1950  make clean
+ 1951  make clean && make CILK=1 graph_bm_no_update
+ 1952  sudo mount /dev/nvme1n1 /graphs/
+ 1953  ls /graphs/
+ 1954  history | grep twitter
+ 1955  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/twitter.adj.shuf -rounds 10 -src 6662945
+ 1956  vi include/graph.h 
+ 1957  make clean && make CILK=1 graph_bm_no_update
+ 1958  vi include/graph.h 
+ 1959  make clean && make CILK=1 graph_bm_no_update
+ 1960  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/twitter.adj.shuf -rounds 10 -src 6662945
+ 1961  git diff
+ 1962  vi include/graph.h 
+ 1963  git diff include/graph.h
+ 1964  make clean && make CILK=1 graph_bm_no_update
+ 1965  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/twitter.adj.shuf -rounds 10 -src 6662945
+ 1966  vi src/graph_bm_no_update.cc 
+ 1967  make clean && make CILK=1 graph_bm_no_update
+ 1968  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/twitter.adj.shuf -rounds 10 -src 6662945
+ 1969  sudo shutdown
+ 1970  cd OpenCilk-9.0.1-Linux/bin/
+ 1971  export PATH=$PATH:$PWD
+ 1972  cd ../../
+ 1973  cd skewgraphstore/graphstore/
+ 1974  git pull
+ 1975  vi include/graph.h 
+ 1976  sudo mount /dev/nvme1n1 /graphs/
+ 1977  make clean && make CILK=1 graph_bm_no_update
+ 1978  vi include/graph.h 
+ 1979  make clean && make CILK=1 graph_bm_no_update
+ 1980  vi include/graph.h 
+ 1981  make clean && make CILK=1 graph_bm_no_update
+ 1982  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/twitter.adj.shuf -rounds 10 -src 6662945
+ 1983  vi src/graph_bm_no_update.cc 
+ 1984  git checkout src/graph_bm_no_update.cc
+ 1985  make CILK=1 graph_bm_no_update
+ 1986  git status
+ 1987  vi src/graph_bm_no_update.cc 
+ 1988  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/twitter.adj.shuf -rounds 10 -src 6662945
+ 1989  git branch 
+ 1990  git checkout master 
+ 1991  git diff include/graph.h
+ 1992  git commit -am "fixing signatures in graph"
+ 1993  git push
+ 1994  git checkout master 
+ 1995  git pull
+ 1996  make clean
+ 1997  make CILK=1 graph_bm_no_update
+ 1998  taskset -c 0-23,48-71 ./graph_bm_no_update -f /graphs/twitter.adj.shuf -rounds 10 -src 6662945
+ 1999  sudo shutdown
+ 2000  cd skewgraphstore/
+ 2001  ls
+ 2002  git status
+ 2003  git add run_*
+ 2004  vi gc_queries_1 
+ 2005  ls
+ 2006  vi run_gc.sh 
+ 2007  ls
+ 2008  git branch
+ 2009  cd graphstore/
+ 2010  ls
+ 2011  vi run-all.sh 
+ 2012  vi test_gc.sh 
+ 2013  cd ..
+ 2014  ls
+ 2015  history | less
+ 2016  vi run_gc.sh 
+ 2017  vi run_gc_1.sh 
+ 2018  vi run_others.sh 
+ 2019  ls
+ 2020  history > history_02_19.txt
