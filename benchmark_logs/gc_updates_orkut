@@ -1,0 +1,26 @@
+Num workers: 48
+Inserting edges
+Construction finished. Nodes: 3072627 Edges: 234370166 Size: 2.46072 GB
+Inserting edges: Total Time Elapsed: 49.975853seconds
+Throughput: 4.68967e+06
+Running bs: 10
+batch_size = 10, average insert: 0.000047, throughput 2.107482e+05
+batch_size = 10, average delete: 0.000013, throughput 7.490637e+05
+Running bs: 100
+batch_size = 100, average insert: 0.000123, throughput 8.116883e+05
+batch_size = 100, average delete: 0.000073, throughput 1.369863e+06
+Running bs: 1000
+batch_size = 1000, average insert: 0.000308, throughput 3.250447e+06
+batch_size = 1000, average delete: 0.000508, throughput 1.968117e+06
+Running bs: 10000
+batch_size = 10000, average insert: 0.000942, throughput 1.062022e+07
+batch_size = 10000, average delete: 0.003972, throughput 2.517370e+06
+Running bs: 100000
+batch_size = 100000, average insert: 0.004252, throughput 2.352000e+07
+batch_size = 100000, average delete: 0.027613, throughput 3.621522e+06
+Running bs: 1000000
+batch_size = 1000000, average insert: 0.058603, throughput 1.706386e+07
+batch_size = 1000000, average delete: 0.229317, throughput 4.360782e+06
+Running bs: 10000000
+batch_size = 10000000, average insert: 0.386792, throughput 2.585370e+07
+batch_size = 10000000, average delete: 2.162763, throughput 4.623716e+06

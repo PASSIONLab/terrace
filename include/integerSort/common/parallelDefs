@@ -1,0 +1,47 @@
+ifdef LONG
+INTT = -DLONG
+endif
+ifdef INT
+INTT = -DINT
+endif
+
+ifdef OPENMP
+PCC = g++
+PCFLAGS = -fopenmp -mcx16 -O3 -DOPENMP -DMCX16 $(INTT) $(SDSLCF)
+PLFLAGS = -fopenmp $(SDSLLF)
+
+else ifdef ICC
+PCC = /opt/intel/bin/icpc
+PCFLAGS = -O2 -DCILKP $(INTT) $(SDSLCF)
+PLFLAGS = 
+
+else ifdef CCILK
+PCC = clang++
+PCFLAGS =  -fcilkplus -mcx16 -O2 -DCILKP -DMCX16 $(INTT) $(SDSLCF)
+PLFLAGS =  -ldl -fcilkplus $(SDSLLF)
+
+else ifdef GCILK
+PCC = g++
+PCFLAGS = -fcilkplus -mcx16 -march=native -O2 -DCILKP -DMCX16 $(INTT) $(SDSLCF)
+PLFLAGS = -ldl -fcilkplus $(SDSLLF)
+
+else ifdef OLDGCILK
+PCC = g++
+PCFLAGS = -lcilkrts -ldl -fcilkplus -mcx16 -O2 -DCILKP -DMCX16 $(INTT) $(SDSLCF)
+PLFLAGS = -lcilkrts -ldl -fcilkplus $(SDSLLF)
+
+else ifdef OLDCILK
+PCC = cilk++
+PCFLAGS = -O2 -DCILK -Wno-cilk-for $(INTT) $(SDSLCF)
+PLFLAGS = $(SDSLLF)
+
+else ifdef MKLROOT
+PCC = icpc
+PCFLAGS = -O3 -DCILKP $(INTT) $(SDSLCF)
+PLFLAGS = $(SDSLLF)
+
+else
+PCC = g++
+PLFLAGS = $(LFLAGS) $(SDSLLF)
+PCFLAGS = -O2 $(INTT) $(SDSLCF)
+endif

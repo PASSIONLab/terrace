@@ -1,0 +1,663 @@
+Running with 48 threads
+Reading Unweighted Graph
+n = 3072627 m = 234370166
+Read Unweighted Graph
+Vertices
+used: 0, allocated: 7405568, node size: 56, bytes: 414711808
+used: 0
+Tree list nodes
+used: 0, allocated: 7536640, node size: 48, bytes: 361758720
+used: 0
+compressed lists 2 printing stats
+lists8: Used: 0, allocated: 3211264, node size: 8, bytes: 25690112
+lists16: Used: 0, allocated: 3211264, node size: 16, bytes: 51380224
+lists32: Used: 0, allocated: 3211264, node size: 32, bytes: 102760448
+lists64: Used: 0, allocated: 3211264, node size: 64, bytes: 205520896
+lists128: Used: 0, allocated: 1605632, node size: 128, bytes: 205520896
+lists256: Used: 0, allocated: 802816, node size: 256, bytes: 205520896
+lists512: Used: 0, allocated: 401408, node size: 512, bytes: 205520896
+lists1024: Used: 0, allocated: 200704, node size: 1024, bytes: 205520896
+lists2048: Used: 0, allocated: 100352, node size: 2048, bytes: 205520896
+lists4096: Used: 0, allocated: 50176, node size: 4096, bytes: 205520896
+lists8192: Used: 0, allocated: 25088, node size: 8192, bytes: 205520896
+lists16384: Used: 0, allocated: 12544, node size: 16384, bytes: 205520896
+Total bytes for node allocators: 0
+stats before build
+
+built all vertices
+Vertices
+used: 0, allocated: 7405568, node size: 56, bytes: 414711808
+used: 0
+Tree list nodes
+used: 925384, allocated: 7536640, node size: 48, bytes: 361758720
+used: 44418432
+compressed lists 2 printing stats
+lists8: Used: 0, allocated: 3211264, node size: 8, bytes: 25690112
+lists16: Used: 93953, allocated: 3211264, node size: 16, bytes: 51380224
+lists32: Used: 345297, allocated: 3211264, node size: 32, bytes: 102760448
+lists64: Used: 675328, allocated: 3211264, node size: 64, bytes: 205520896
+lists128: Used: 1068358, allocated: 1605632, node size: 128, bytes: 205520896
+lists256: Used: 1111210, allocated: 1572864, node size: 256, bytes: 402653184
+lists512: Used: 558383, allocated: 786432, node size: 512, bytes: 402653184
+lists1024: Used: 108311, allocated: 200704, node size: 1024, bytes: 205520896
+lists2048: Used: 10316, allocated: 100352, node size: 2048, bytes: 205520896
+lists4096: Used: 271, allocated: 50176, node size: 4096, bytes: 205520896
+lists8192: Used: 0, allocated: 25088, node size: 8192, bytes: 205520896
+lists16384: Used: 0, allocated: 12544, node size: 16384, bytes: 205520896
+Total bytes for node allocators: 896033072
+stats after parallel build
+
+Vertices
+used: 3072627, allocated: 7405568, node size: 56, bytes: 414711808
+used: 172067112
+Tree list nodes
+used: 925384, allocated: 7536640, node size: 48, bytes: 361758720
+used: 44418432
+compressed lists 2 printing stats
+lists8: Used: 0, allocated: 3211264, node size: 8, bytes: 25690112
+lists16: Used: 93953, allocated: 3211264, node size: 16, bytes: 51380224
+lists32: Used: 345297, allocated: 3211264, node size: 32, bytes: 102760448
+lists64: Used: 675328, allocated: 3211264, node size: 64, bytes: 205520896
+lists128: Used: 1068358, allocated: 1605632, node size: 128, bytes: 205520896
+lists256: Used: 1111210, allocated: 1572864, node size: 256, bytes: 402653184
+lists512: Used: 558383, allocated: 786432, node size: 512, bytes: 402653184
+lists1024: Used: 108311, allocated: 200704, node size: 1024, bytes: 205520896
+lists2048: Used: 10316, allocated: 100352, node size: 2048, bytes: 205520896
+lists4096: Used: 271, allocated: 50176, node size: 4096, bytes: 205520896
+lists8192: Used: 0, allocated: 25088, node size: 8192, bytes: 205520896
+lists16384: Used: 0, allocated: 12544, node size: 16384, bytes: 205520896
+Total bytes for node allocators: 896033072
+stats after multi_insert
+
+PBBS time: Build time: 0.1620
+calling acquire_version
+acquired!
+n = 3072627
+Running bs: 10
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+Avg insert: 8.291e-05
+Avg delete: 7.825e-05
+
+Running bs: 100
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+Avg insert: 0.0001367
+Avg delete: 0.0001325
+
+Running bs: 1000
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+Avg insert: 0.0003783
+Avg delete: 0.0003528
+
+Running bs: 10000
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+Avg insert: 0.0016
+Avg delete: 0.001418
+
+Running bs: 100000
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+insert, nn = 2097152
+running sample sort
+delete, nn = 2097152
+running sample sort
+Avg insert: 0.007226
+Avg delete: 0.006845
+
+Running bs: 1000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 20000000
+Avg insert: 0.03036
+Avg delete: 0.03013
+
+Running bs: 10000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+insert, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+delete, nn = 2097152
+running integer sort: 2097152 and mm = 240000000
+Avg insert: 0.09765
+Avg delete: 0.09503
+

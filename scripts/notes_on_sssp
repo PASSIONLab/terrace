@@ -1,0 +1,28 @@
+to run a new graph in sssp, suppose you start with an unweighted edge list graph
+will call it graph.txt for this example readme
+
+make graph_bm_weighted
+
+# will output a graph into graph.txt.weighted
+# with each edge symmetrized with the same weight
+./graph_bm_weighted -t WEIGHT -f graph.txt
+
+# now convert that into adj format
+in new-ligra/utils
+./wghELtoAdj -s <graph.txt.weighted> <output adj file>
+
+to test SSSP in GC:
+./graph_bm_weighted -t SSSP_BF -src <src> -f <input adj weighted>
+
+to test SSSP in Ligra:
+./BellmanFord -s -r <src> <input adj weighted>
+
+
+TODO: figure out why ligra+ is segfaulting
+to run in ligra+:
+first, convert to compressed form
+in new-ligra/apps
+./encoder -s -w <input weighted adj> <output compressed adj>
+
+then, run
+./BellmanFord -s -c -r <src> -f <input compressed weighted adj>
