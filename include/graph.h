@@ -362,7 +362,7 @@ static inline void unlock(uint32_t *data)
 			// update degree
 			if (degree < NUM_IN_PLACE_NEIGHBORS) {
 				vertices[s].degree = LOCK_MASK;
-				vertices[s].degree += cnt;
+				vertices[s].degree = cnt;
 			}
 		}
 #if ENABLE_LOCK
