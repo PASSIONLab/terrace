@@ -36,7 +36,7 @@ namespace graphstore {
 #else
 #define NUM_IN_PLACE_NEIGHBORS 13
 #endif
-#define MEDIUM_DEGREE (1ULL << 30)
+#define MEDIUM_DEGREE (1ULL << 10)
 
 #define LOCK_MASK (1ULL << 31)
 #define UNLOCK_MASK ~(1ULL << 31)
